@@ -4,13 +4,17 @@ html, body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    /* height: 100%; */
+}
+
+body {
+    height: 100%;
 }
 
 .box {
     background-image: url("../images/sugarloaf_sunset_by_phillewis_dzaj8z\ 1.jpg");
     background-size: cover;
     padding: 24px;
+    min-height: 100vh;
     height: 100%;
     background-attachment: fixed;
     position: relative;
@@ -78,7 +82,7 @@ html, body {
     text-decoration: none;
 }
 
-h1 {
+h1, .logo {
     color: #F2B705;
     margin: 0;
     padding: 0;
@@ -103,6 +107,43 @@ p {
 h2, h3, p, a, li{
     font-family: 'Emilys Candy', cursive;
 }
+
+.nav {
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #260240;
+}
+
+.nav .buttons a {
+    font-size: 22px;
+    margin: 0px 23px;
+    padding: 8px 24px;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    font-size: 48px;
+    transform: translateY(-50%);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
