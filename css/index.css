@@ -37,7 +37,7 @@ body {
     position: relative;
     max-width: 826px;
     width: 100%;
-    background-color: #260240;
+    background-color: rgb(38, 2, 64, 0.5);
     border: 5px solid #51F28A;
     border-radius: 45px;
     padding: 32px;
@@ -155,10 +155,13 @@ h2, h3, p, a, li{
     transform: translate(-50%, -50%);
 }
 
+.content h1 span {
+    transition: all 0.3s ease-in-out;
+}
 
-
-
-
+.content h1 span:hover {
+    color:#F24405;
+}
 
 
 
@@ -169,16 +172,13 @@ h2, h3, p, a, li{
 
 /*
 
-    idkk  how u would 
 
+    terrible color x.x
+    red is my LEAST favyy color x.x
+    no that is deffiii red but is fiine
+    i will let u have this 1 x.x
 
-
-
-
-
-
-
-
+    WE SHOULD MAKE A BUTTON THAT WILL DO KITTYSIP 
 
 
 
