@@ -80,6 +80,14 @@ body {
     font-size: 32px;
     filter: drop-shadow(0px 4px 4px #51F28A);
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.buttons a:hover {
+    color: #F105CB;
+    border-color: #F105CB;
+    filter: drop-shadow(0px 4px 4px #F105CB);
+    transform: scale(1.08);
 }
 
 h1, .logo {
@@ -132,7 +140,20 @@ h2, h3, p, a, li{
     text-decoration: none;
 }
 
+.vbg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
 
+.vbg iframe {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+}
 
 
 
@@ -147,6 +168,27 @@ h2, h3, p, a, li{
 
 
 /*
+
+    idkk  how u would 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 i dont think we rllyy need scrolyy wheel tho rite
 like we wanna make it all fit on 1 screen
@@ -173,6 +215,51 @@ like we wanna make it all fit on 1 screen
 
 
     mhm
+
+
+
+    nerrrrrrrrrrrddddddddddddddd
+
+
+
+    but this is 8hr kittyyy movie o.o
+    look how long this ovie is o.o
+
+    7:34:05
+
+
+        WE HAVE 2 WATCH ALL OF IT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            THE CAT MOVIE WORKS OMGGGG SO FUNYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+            im like ded rn u have no idea 
+
+            but i cant press play
+
+
+    no
+
+left
+
+
+
 
 
 
