@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Rubik+Moonrocks&display=swap');
 
+html {
+    cursor: url("../images/arr-primary48.png"), auto;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -163,27 +167,42 @@ h2, h3, p, a, li{
     color:#F24405;
 }
 
+.secret::after {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 50px;
+    height: 50px;
+    content: "";
+    background-image: url("../images/kittysip.png");
+    background-position: center;
+    background-size: contain;
+    opacity: 0;
+}
 
+.secret {
+    position: relative;
+}
 
-
-
+.secret:hover::after {
+    opacity: 1;
+}
 
 
 
 /*
 
+    it feels like it more 2 the rite 
+    idkk what that means 
 
-    terrible color x.x
-    red is my LEAST favyy color x.x
-    no that is deffiii red but is fiine
-    i will let u have this 1 x.x
+    what if
 
-    WE SHOULD MAKE A BUTTON THAT WILL DO KITTYSIP 
-
+    we target the space and the heart
 
 
-
-
+    do u see what i did
+    that is a thing rite o.o
 
 
 
